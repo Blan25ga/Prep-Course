@@ -74,7 +74,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  return str1.length === str2.lensgth; 
+  return str1.length === str2.length; 
 
 }
 
@@ -82,7 +82,7 @@ function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num < 90) {
+  if(num < 90) {
     return true;
   } else {
     return false;
@@ -106,18 +106,19 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num % 2 === 2) {
-    return true;
+  if ( num % 2 == 0) {
+    return true; 
   } else {
-    return false
+    return false;
   }
+
 }
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num % 2 === 3) {
+  if ( num % 2 == 1) {
     return true; 
   } else {
     return false;
@@ -146,20 +147,20 @@ function elevar(num, exponent) {
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  return math.round(5.3) = 5;
+  return Math.round(num);
 
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  return math.ceil(8.0005) = 9;
+  return Math.ceil(num);
 
 }
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  return math.rondom(); 
+  return Math.random(); 
 }
 
 function esPositivo(numero) {

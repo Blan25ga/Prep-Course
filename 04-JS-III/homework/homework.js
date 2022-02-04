@@ -91,10 +91,8 @@ function agregarNumeros(numeros) {
   for(var i = 0; i < numeros.length; i++) {
     suma = suma + numeros[i];
   }
-  return suma;
-
-
-
+  return suma
+  
 }
 function promedioResultadosTest(resultadosTest) {
   // "resultadosTest" debe ser una matriz de enteros (int/integers)

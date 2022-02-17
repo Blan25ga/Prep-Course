@@ -72,7 +72,7 @@ function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
-  for (var i = 0; i < array.length; i++ ) {
+  for (var i = 0; i < array.length; i++) {
         if(array[i] === elemento) {
           return true;
         }   
@@ -98,9 +98,13 @@ function promedioResultadosTest(resultadosTest) {
   // "resultadosTest" debe ser una matriz de enteros (int/integers)
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
+  var acumulador = 0
+  for (var i= 0; i < resultadosTest.length; i++) {
+    acumulador = acumulador + resultadosTest[i]
 
-  return agregarNumeros(resultadosTest) / resultadosTest.length;
-
+  }
+  var promedio = acumulador / resultadosTest.length
+  return promedio;
 }
 
 

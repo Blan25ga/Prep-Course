@@ -142,8 +142,8 @@ function cuentoElementos(arreglo){
   //Escribe tu código aquí
   var contador= 0
   for(var i=0; i< arreglo.length; i++){
-    if(arreglo[i] > 19){
-    contador ++
+    if(arreglo[i] > 18){
+    contador = cintador +1
     }
   } return contador;
 
